@@ -17,6 +17,14 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
+.mainContainer{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 .firstBox{
     min-width: 320px;
     height: 500px;
